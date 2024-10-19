@@ -76,7 +76,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
-          className={`fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border border-x-gray-800 bg bg-black/90 p-12 ${
+          className={`fixed right-0 top-[70px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border border-x-gray-800 bg bg-black/90 p-12 ${
             isOpen ? "block" : "hidden"
           }`}
         >
