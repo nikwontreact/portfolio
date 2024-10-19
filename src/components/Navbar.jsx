@@ -47,7 +47,7 @@ const Navbar = () => {
           <li>Contact</li>
         </a>
       </ul>
-
+       
       <ul className="hidden md:flex gap-5">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
           <a href="https://www.linkedin.com/in/nikhil-sode/">
@@ -117,18 +117,28 @@ const Navbar = () => {
           </ul>
 
           <ul className="flex flex-wrap gap-5 ">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <a href="https://www.linkedin.com/in/nikhil-sode/">
-                <FaLinkedin className="rounded-lg" />
-              </a>
-            </li>
-
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white-500 hover:opacity-100b">
-              <FaGithub />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <FaDiscord />
-            </li>
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+          <a href="https://www.linkedin.com/in/nikhil-sode/">
+            <FaLinkedin className="rounded-lg" />
+          </a>
+        </li>
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white-500 hover:opacity-100">
+          <a href="https://github.com/nikwontreact">
+            <FaGithub />
+          </a>
+        </li>
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+          <a
+            href="https://discordapp.com/users/bpdmurphy"
+          >
+            <FaDiscord />
+          </a>
+        </li>
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
+          <a href="https://open.spotify.com/user/31ohluyagqarmyahp7xxx4mbezte?nd=1&dlsi=3c84efd0efc54c1e">
+            <FaSpotify />
+          </a>
+        </li>
           </ul>
         </div>
       )}
