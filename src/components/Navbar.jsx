@@ -1,10 +1,8 @@
-
 import React, { useState } from "react";
 import { FaSpotify } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import { FaReddit } from "react-icons/fa";
 import { BiX } from "react-icons/bi";
 import { BiMenu } from "react-icons/bi";
 
@@ -57,9 +55,6 @@ const Navbar = () => {
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white-500 hover:opacity-100">
           <FaGithub />
         </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-          <FaReddit />
-        </li>
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
           <FaDiscord />
         </li>
@@ -76,7 +71,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
-          className={`fixed right-0 top-[70px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border border-x-gray-800 bg bg-black/90 p-12 ${
+          className={`fixed right-0 top-[65px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border border-x-gray-800 bg bg-black/90 p-12 ${
             isOpen ? "block" : "hidden"
           }`}
         >
@@ -115,18 +110,14 @@ const Navbar = () => {
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
               <FaLinkedin className="rounded-lg" />
             </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white-500 hover:opacity-100">
+
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white-500 hover:opacity-100b">
               <FaGithub />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-              <FaReddit />
             </li>
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
               <FaDiscord />
             </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
-              <FaSpotify />
-            </li>
+          
           </ul>
         </div>
       )}

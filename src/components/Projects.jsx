@@ -3,33 +3,28 @@ import { motion } from "framer-motion";
 
 const projectData = [
   {
-    title: "Project 1",
+    title: "To-Do-App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nesciunt deserunt sit consectetur eligendi quibusdam quasi, et quas dolores corrupti quisquam. Possimus, cumque. A eos, illum magni sed commodi blanditiis",
-    image: "https://via.placeholder.com/200x200",
-    technologies: ["React", "tailwind", "vercel"],
+      "This is a simple To-Do App built with React, utilizing local storage to save tasks so they persist even after page refreshes. The app's user interface is styled with Tailwind CSS for a clean, modern look. Users can add, delete, and mark tasks as completed, all while ensuring their tasks are stored locally for future access.",
+    image: "../../public/1.png",
+    technologies: ["React", "Tailwind CSS", "Vercel"],
   },
   {
-    title: "Project 2",
+    title: "Weather App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nesciunt deserunt sit consectetur eligendi quibusdam quasi, et quas dolores corrupti quisquam. Possimus, cumque. A eos, illum magni sed commodi blanditiis",
-    image: "https://via.placeholder.com/200x200",
-    technologies: ["React", "tailwind", "vercel"],
+      "This Weather App is built with React and styled using Tailwind CSS for a sleek and responsive design. It integrates with the OpenWeather API to provide real-time weather data for any location. Users can search for a city to view current weather conditions, including temperature, humidity, and wind speed. The app is designed for simplicity and usability, delivering up-to-date weather information in a clean, user-friendly interface.",
+    image: "../../public/2.png",
+    technologies: ["React", "Tailwind CSS", "Vercel","Material UI","React Icons"],
   },
   {
-    title: "Project 3",
+    title: "Portfolio Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nesciunt deserunt sit consectetur eligendi quibusdam quasi, et quas dolores corrupti quisquam. Possimus, cumque. A eos, illum magni sed commodi blanditiis",
-    image: "https://via.placeholder.com/200x200",
-    technologies: ["React", "tailwind", "vercel"],
+      "This portfolio website showcases my skills and projects as a Frontend Developer. Built with React and styled using Tailwind CSS, it features a clean, responsive design optimized for all devices. The site highlights my expertise in JavaScript, React, Next.js, and Node.js, and includes projects like a weather app, to-do app, and more. Each project demonstrates my ability to create functional, user-friendly web applications. Feel free to explore my work and get in touch",
+    image: "../../public/3.png",
+    technologies: ["React", "Tailwind", "Framer Motion","Vercel"],
   },
-  {
-    title: "Project 4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nesciunt deserunt sit consectetur eligendi quibusdam quasi, et quas dolores corrupti quisquam. Possimus, cumque. A eos, illum magni sed commodi blanditiis",
-    image: "https://via.placeholder.com/200x200",
-    technologies: ["React", "tailwind", "vercel"],
-  },
+  
+  
 ];
 
 const ScrollReveal = ({ children }) => {

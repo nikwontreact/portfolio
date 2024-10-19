@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../public/image.jpg";
+import image from "../../public/edit-removebg.png";
 import {motion} from "framer-motion"
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           <img
             src={image}
             alt=""
-            className="  w-[300px] cursor-pointer  rounded-full shadow-lg shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-indigo-600 md:w-[250px]"
+            className="  w-[200px] cursor-pointer  rounded-full shadow-lg shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-indigo-600 md:w-[200px]"
           />
         </motion.div>
 
@@ -28,7 +28,7 @@ const Hero = () => {
         >
             <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-4xl  font-light md:text-5xl">Nikhil Sode</h1>
             <h3 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-xl   md:text-xl">Frontend Developer</h3>
-            <p className="md:text-base text-pretty text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus qui beatae doloribus, magnam voluptatum labore placeat odio nesciunt ea blanditiis perferendis vero, commodi dolore voluptas quaerat. Officia et est porro.</p>
+            <p className="md:text-base text-pretty text-sm">I'm a skilled Frontend Developer with expertise in React, Next.js, Tailwind CSS, and JavaScript. I build responsive, user-friendly web applications and enjoy crafting seamless interfaces. With experience in Node.js and Python, I bridge the gap between frontend and backend for optimal performance. Let’s create something amazing!</p>
         </motion.div>
       </div>
     </div>
