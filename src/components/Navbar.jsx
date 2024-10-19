@@ -1,4 +1,4 @@
-import { nav } from "framer-motion/client";
+
 import React, { useState } from "react";
 import { FaSpotify } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -88,19 +88,19 @@ const Navbar = () => {
               <li>Home</li>
             </a>
             <a
-              href="#home"
+              href="#tech"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               <li>Tech</li>
             </a>
             <a
-              href="#home"
+              href="#projects"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               <li>Projects</li>
             </a>
             <a
-              href="#home"
+              href="#contact"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               <li>Contact</li>
