@@ -6,14 +6,14 @@ const projectData = [
     title: "To-Do-App",
     description:
       "This is a simple To-Do App built with React, utilizing local storage to save tasks so they persist even after page refreshes. The app's user interface is styled with Tailwind CSS for a clean, modern look. Users can add, delete, and mark tasks as completed, all while ensuring their tasks are stored locally for future access.",
-    image: "https://github.com/nikwontreact/portfolio/blob/main/public/1.png?raw=true",
+    image: "https://imgs.search.brave.com/Kd9QwPrW9clShao56ScV00ocam3V5fFAgEdDIrd-IZk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5kZXYudG8vZHlu/YW1pYy9pbWFnZS93/aWR0aD04MDAsaGVp/Z2h0PSxmaXQ9c2Nh/bGUtZG93bixncmF2/aXR5PWF1dG8sZm9y/bWF0PWF1dG8vaHR0/cHM6Ly9kZXYtdG8t/dXBsb2Fkcy5zMy5h/bWF6b25hd3MuY29t/L3VwbG9hZHMvYXJ0/aWNsZXMvMDB1cmdr/aTZsZjQyN3g0MjRm/ZXUuanBn",
     technologies: ["React", "Tailwind CSS", "Vercel"],
   },
   {
     title: "Weather App",
     description:
       "This Weather App is built with React and styled using Tailwind CSS for a sleek and responsive design. It integrates with the OpenWeather API to provide real-time weather data for any location. Users can search for a city to view current weather conditions, including temperature, humidity, and wind speed. The app is designed for simplicity and usability, delivering up-to-date weather information in a clean, user-friendly interface.",
-    image: "../../public/2.png",
+    image: "https://github.com/nikwontreact/portfolio/blob/main/public/2.png?raw=true",
     technologies: ["React", "Tailwind CSS", "Vercel","Material UI","React Icons"],
   },
   {
