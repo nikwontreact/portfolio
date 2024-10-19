@@ -6,7 +6,7 @@ const projectData = [
     title: "To-Do-App",
     description:
       "This is a simple To-Do App built with React, utilizing local storage to save tasks so they persist even after page refreshes. The app's user interface is styled with Tailwind CSS for a clean, modern look. Users can add, delete, and mark tasks as completed, all while ensuring their tasks are stored locally for future access.",
-    image: "../../public/1.png",
+    image: "https://github.com/nikwontreact/portfolio/blob/main/public/1.png?raw=true",
     technologies: ["React", "Tailwind CSS", "Vercel"],
   },
   {
