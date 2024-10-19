@@ -19,9 +19,9 @@ const Contact = () => {
         <a href="mailto:x11.niks@gmail.com" className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl">Contact Me</a>
         
         <ul className="hidden md:flex gap-5">
-        <a href="https://www.linkedin.com/in/nikhil-sode/" className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-          <li><FaLinkedin className="rounded-lg" /></li>
-        </a>
+        <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+          <FaLinkedin className="rounded-lg" />
+        </li>
         <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-gray-200 hover:opacity-100">
           <FaGithub />
         </li>
