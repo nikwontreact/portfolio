@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../public/edit-removebg.png";
+import image from "https://imgs.search.brave.com/r_GRmU8iP-xVb5E1TDNssNhIOh4Rx3YRiN5rxJjcR3w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzRhLzY4/LzI3LzRhNjgyN2Yw/ZGYwMjIxMjNlOTM0/NDBjNjkyMWE3MGNh/LmpwZw";
 import {motion} from "framer-motion"
 const Hero = () => {
   return (
