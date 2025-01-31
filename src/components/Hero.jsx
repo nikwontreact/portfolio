@@ -32,8 +32,8 @@ const Hero = () => {
             Frontend Developer
           </h3>
           <p className="md:text-base text-pretty text-sm">
-            I'm a skilled Frontend Developer with expertise in React, Next.js,
-            Tailwind CSS, and JavaScript. I build responsive, user-friendly web
+            I'm a skilled Frontend Developer with expertise in React,
+            Tailwind CSS and JavaScript. I build responsive, user-friendly web
             applications and enjoy crafting seamless interfaces. With experience
             in Node.js and Python, I bridge the gap between frontend and backend
             for optimal performance. Let’s create something amazing!
