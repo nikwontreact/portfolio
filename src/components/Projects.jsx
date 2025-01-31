@@ -14,17 +14,17 @@ const projectData = [
     description:
       "This Weather App is built with React and styled using Tailwind CSS for a sleek and responsive design. It integrates with the OpenWeather API to provide real-time weather data for any location. Users can search for a city to view current weather conditions, including temperature, humidity, and wind speed. The app is designed for simplicity and usability, delivering up-to-date weather information in a clean, user-friendly interface.",
     image: "https://imgs.search.brave.com/pGXZp03imHvrlmRKeYPnh6-wb-ZX2IxExuTpPmnaygM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5kZXYudG8vZHlu/YW1pYy9pbWFnZS93/aWR0aD04MDAsaGVp/Z2h0PSxmaXQ9c2Nh/bGUtZG93bixncmF2/aXR5PWF1dG8sZm9y/bWF0PWF1dG8vaHR0/cHM6Ly9kZXYtdG8t/dXBsb2Fkcy5zMy5h/bWF6b25hd3MuY29t/L2kvYThjZGJjNnA5/ZGtjd3A5NGlkemMu/cG5n",
-    technologies: ["React", "Tailwind CSS", "Vercel","Material UI","React Icons"],
+    technologies: ["React", "Tailwind CSS", "Vercel", "Material UI", "React Icons"],
   },
   {
     title: "Portfolio Website",
     description:
       "This portfolio website showcases my skills and projects as a Frontend Developer. Built with React and styled using Tailwind CSS, it features a clean, responsive design optimized for all devices. The site highlights my expertise in JavaScript, React, Next.js, and Node.js, and includes projects like a weather app, to-do app, and more. Each project demonstrates my ability to create functional, user-friendly web applications. Feel free to explore my work and get in touch",
-    image: "https://imgs.search.brave.com/O2yhxCfLap4XH3rhfXAJrApggh8oWaruok-SbN4S9Yo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnV0dGVyY21zLmNv/bS9UMW1Vd2NiZVRw/dXVWWXVDaE5XdA",
-    technologies: ["React", "Tailwind", "Framer Motion","Vercel"],
+    image: "https://media.discordapp.net/attachments/1068961070284292127/1334841152603422750/portfolio.png?ex=679dff32&is=679cadb2&hm=1a99af8e993bb41dc8d8c1f2ca8713100ec8f34b73b155517b47b628dfb6b7e9&=&format=webp&quality=lossless&width=919&height=443",
+    technologies: ["React", "Tailwind", "Framer Motion", "Vercel"],
   },
-  
-  
+
+
 ];
 
 const ScrollReveal = ({ children }) => {

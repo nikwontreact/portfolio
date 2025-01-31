@@ -66,11 +66,11 @@ const Navbar = () => {
             <FaDiscord />
           </a>
         </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
+        {/* <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
           <a href="https://open.spotify.com/user/31ohluyagqarmyahp7xxx4mbezte?nd=1&dlsi=3c84efd0efc54c1e">
             <FaSpotify />
           </a>
-        </li>
+        </li> */}
       </ul>
 
       {isOpen ? (
@@ -134,11 +134,11 @@ const Navbar = () => {
             <FaDiscord />
           </a>
         </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
+        {/* <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
           <a href="https://open.spotify.com/user/31ohluyagqarmyahp7xxx4mbezte?nd=1&dlsi=3c84efd0efc54c1e">
             <FaSpotify />
           </a>
-        </li>
+        </li> */}
           </ul>
         </div>
       )}

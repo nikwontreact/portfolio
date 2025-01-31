@@ -3,6 +3,7 @@ import { FaSpotify } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+import Resume from "../../public/Nikhilresume.pdf";
 
 
 const Contact = () => {
@@ -18,6 +19,8 @@ const Contact = () => {
         <p className="text-center text-lg font-semibold text-gray-500">Want to chat? Send me an E-mail through this button and I'll respond whenever I can </p>
         <a href="mailto:x11.niks@gmail.com" className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl">Contact Me</a>
         
+        <a href="" download={Resume} className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl">Resume</a>
+        
         <ul className="hidden md:flex gap-5">
         <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
           <FaLinkedin className="rounded-lg" />
@@ -29,9 +32,9 @@ const Contact = () => {
         <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
           <FaDiscord />
         </li>
-        <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
+        {/* <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
           <FaSpotify />
-        </li>
+        </li> */}
       </ul>
       </div>
     </div>
