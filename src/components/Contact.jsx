@@ -3,7 +3,7 @@ import { FaSpotify } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import Resume from "../../public/Nikhilresume.pdf";
+import Resume from "../../public/Nikhilresume.pdf"; 
 
 
 const Contact = () => {
