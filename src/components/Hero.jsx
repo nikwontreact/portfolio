@@ -13,9 +13,9 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="../../public"
+            src="../../public/profile.png"
             alt=""
-            className="  w-[200px] cursor-pointer  rounded-full shadow-lg shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-indigo-600 md:w-[200px]"
+            className="  w-[190px] cursor-pointer  rounded-full shadow-md shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-indigo-600 md:w-[180px]"
           />
         </motion.div>
 
@@ -32,8 +32,8 @@ const Hero = () => {
             Frontend Developer
           </h3>
           <p className="md:text-base text-pretty text-sm opacity-80 hover:opacity-100">
-            I'm a skilled Frontend Developer with expertise in React,
-            Tailwind CSS and JavaScript. I build responsive, user-friendly web
+            I'm a skilled Frontend Developer with expertise in React, Tailwind
+            CSS and JavaScript. I build responsive, user-friendly web
             applications and enjoy crafting seamless interfaces. With experience
             in Node.js and Python, I bridge the gap between frontend and backend
             for optimal performance. Let’s create something amazing!
