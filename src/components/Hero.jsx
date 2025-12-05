@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import profilePic from "../../public/profile.png";
 const Hero = () => {
   return (
     <div
@@ -13,7 +14,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="../../public/profile.png"
+            src= {profilePic}
             alt=""
             className="  w-[190px] cursor-pointer  rounded-full shadow-md shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-indigo-600 md:w-[180px]"
           />
