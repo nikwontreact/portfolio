@@ -17,27 +17,33 @@ const Contact = () => {
             Get In Touch
           </span>
         </h1>
-        <p className="text-center text-lg font-semibold text-gray-500">
-          Want to chat? Send me an E-mail through this button and I'll respond
-          whenever I can{" "}
-        </p>
-        <a
-          href="mailto:x11.niks@gmail.com"
-          className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl"
-        >
-          Contact Me
-        </a>
-
-        <a
-          href="/nikhilResume.pdf"
-          download={Resume}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-nowrap rounded-lg border border-indigo-600 bg-black bg-opacity-50 px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl"
-        >
-          Resume
-        </a>
-
+        <div className="flex items-center md:gap-10 gap-3">
+          <div className="flex flex-col gap-5">
+            <p className="text-center text-lg font-semibold text-gray-500">
+              Send me an mail
+            </p>
+            <a
+              href="mailto:nikhildebugs@gmail.com"
+              className="text-nowrap rounded-lg border border-indigo-600 bg-black bg-opacity-50 px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl text-center"
+            >
+              Contact Me
+            </a>
+          </div>
+          <div className="flex flex-col gap-5">
+            <p className="text-center  text-lg font-semibold text-gray-500">
+              Download Resume
+            </p>
+            <a
+              href="/nikhilResume.pdf"
+              download={Resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-nowrap rounded-lg border border-indigo-600 bg-black bg-opacity-50 px-5 py-4 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl text-center"
+            >
+              Resume
+            </a>
+          </div>
+        </div>
         <ul className="hidden md:flex gap-5">
           <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 bg-opacity-50 hover:text-blue-500 hover:opacity-100">
             <FaLinkedin className="rounded-lg" />
